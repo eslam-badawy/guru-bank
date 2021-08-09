@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Guru Project test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="end to end(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.guru.testcases.LoginPageTest">
+        <methods>
+          <include name="LoginTest" invocation-numbers="1 2"/>
+          <include name="TearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.guru.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- end to end(failed) -->
+</suite> <!-- Failed suite [Guru Project test] -->
